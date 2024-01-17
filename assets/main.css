@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'IM Fell Double Pica', serif;
+    font-family: italic;
+    color: #130B0B;
+    background-color: #FFFFFF;
+}
+
+header,nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    width: 35%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 150px 40px 145px; 
+}
+
+#div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#imagem {
+    height: 500px;
+    width:  1100px;
+}
+
+.logo {
+    font-size: 32px;
+    text-decoration: none;
+}
+
+.links {
+    text-decoration: none;
+    font-size: 32px;
+}
+
+.imagems {
+    height: 300px;
+    width: 200px;
+    margin: 30px 0px 0px 0px;
+}
+
+.img{
+    height: 300px;
+    width: 200px;
+    margin: 30px 0px 0px 0px;
+}
+
+#titleAEsquerda {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    padding: 30px 0px 0px 80px;
+    
+}
+
+#titleADireita {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    padding: 30px 100px 0px 0px;
+}
+
+#textoAEsquerda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    height: 200px;
+    width: 275px;
+    text-align: right;
+}
+
+#textoADireita {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    height: 200px;
+    width: 275px;
+    text-align: left;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 330px;
+    width: 1100px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
